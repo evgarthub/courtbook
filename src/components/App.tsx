@@ -1,3 +1,9 @@
+import { Login } from "./Login";
+
 export const App = () => {
-  return <span>Hello world!!!</span>;
+  return (
+    <span>
+      <Login />
+    </span>
+  );
 };
