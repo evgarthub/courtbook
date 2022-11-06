@@ -31,7 +31,7 @@ export default [
       postcss(),
       html({ template: "public/index.html", target: "dist/index.html" }),
       cleaner({
-        targets: ["./dist/"],
+        targets: ["dist/"],
       }),
       serve({
         open: true,
