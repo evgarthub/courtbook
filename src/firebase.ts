@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
 // Firebase products that you might want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -18,3 +19,4 @@ const firebaseConfig = {
 // Initialize Firebase
 export const fireApp = initializeApp(firebaseConfig);
 export const fireAnalytics = getAnalytics(fireApp);
+export const db = getFirestore(fireApp);

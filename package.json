@@ -28,6 +28,7 @@
     "@mantine/dates": "5.7.1",
     "@mantine/hooks": "5.7.1",
     "@mantine/notifications": "5.7.1",
+    "@mantine/form": "5.9.0",
     "dayjs": "1.11.6",
     "firebase": "9.13.0",
     "firebaseui": "6.0.1",
@@ -40,14 +41,16 @@
     "@rollup/plugin-replace": "5.0.1",
     "@rollup/plugin-typescript": "9.0.2",
     "@types/firebase": "3.2.1",
-    "@types/react-dom": "18.0.8",
-    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@types/react": "18.0.26",
+    "postcss": "8.4.19",
     "rollup-plugin-cleaner": "1.0.0",
     "rollup-plugin-generate-html-template": "1.7.0",
     "rollup-plugin-livereload": "2.0.5",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "4.0.2",
     "rollup-plugin-serve": "2.0.1",
-    "rollup": "3.2.5"
+    "typescript": "4.9.3",
+    "rollup": "3.5.1"
   }
 }
